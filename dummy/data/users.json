@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "username": "admin",
+    "password": "hashed_password_here",
+    "role": "admin"
+  },
+  {
+    "id": 2,
+    "username": "newuser",
+    "password": "$2a$08$JWNpXMxate1ZjFwkOzdXxuYs4uOZSzWdMB23.92RWgSpBPoLmKOCy",
+    "role": "admin"
+  },
+  {
+    "id": 3,
+    "username": "huda",
+    "password": "$2a$08$lYRAkVcU8Iu9GId5IrCIIOrMrMfHPAonRN7ELaW9xD3NJS78P3jz2",
+    "role": "admin"
+  },
+  {
+    "id": 4,
+    "username": "newusr",
+    "password": "$2a$08$HSievC9ecbKnR2A3cllXh.uGVYAtLNrZxpJu2imKjfbhx0It4Aaou",
+    "role": "admin"
+  },
+  {
+    "id": 5,
+    "username": "abcd",
+    "password": "$2a$08$FBOVZ6JAScAPk.8o4UEGGehb0fkgbl153Mv2CybbMDM548DvkqN/.",
+    "role": "admin"
+  }
+]

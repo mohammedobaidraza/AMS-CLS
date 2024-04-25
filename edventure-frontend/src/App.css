@@ -1,0 +1,362 @@
+.logo-container {
+  text-align: center;
+  padding: 10px 0;
+  background: #fff; /* or any color that fits your design */
+}
+
+/* .................submission details........... */ 
+
+
+/* Submission Details Styling */
+.submission-details {
+  border: 1px solid #219916;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 800px;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.submission-details h1 {
+  border-bottom: 2px solid #219916;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.submission-details p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.submission-details p strong {
+  color: #000;
+  font-weight: bold;
+}
+
+.submission-details p span {
+  display: block;
+  margin-top: -10px;
+  text-align: left;
+  color: #555;
+}
+
+/* Button Styling */
+.button-style {
+  display: block; /* Make the button a block element to fill the container width */
+  width: 100%; /* Full width */
+  padding: 10px 15px; /* Padding for spacing */
+  margin-bottom: 10px; /* Margin at the bottom for spacing */
+  background-color: #219916; /* green background */
+  color: white; /* White text */
+  text-align: center; /* Center the text */
+  font-size: 16px; /* Font size */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Change mouse pointer on hover */
+  text-decoration: none; /* Remove text decoration if button is a link */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+  transition: background-color 0.3s ease; /* Transition for the hover effect */
+}
+
+.button-style:hover {
+  background-color: #666666; /* Darker shade on hover */
+}
+
+@media (max-width: 768px) {
+  .submission-details {
+    margin: 10px;
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+/* .................submission details........... */
+/* ...............navbar........... */
+/* App.css */
+
+/* Add styles for the nav bar */
+.navbar {
+  background-color: #219916; /* Set your desired nav bar color */
+  padding: 0px 0px; /* Add some padding */
+  text-align: left; /* Center the text/content */
+  width: 100%;
+  height: 100px;
+}
+.navbar button{
+  width: 60px;
+  padding: 10px;
+  background-color: #219916;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+   transition: background-color 0.3s ease;
+   position: absolute;
+   right: 10px;
+   top: 5px;
+}
+/* App.css or another stylesheet linked to your project */
+.navbar-logo {
+  max-width: 200px; /* Adjust as needed */
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Content image styles */
+.content-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+ 
+img {
+  max-width: 10%; /* Ensure image doesn't exceed container width */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 20px; /* Add margin at the bottom */
+ ;
+}
+
+
+/* Adjust the width and margin for the image */
+.content-container img {
+  max-width: 50%; /* Full width of its container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Make the image a block element */
+  margin: 0 auto 20px; /* Center-align the image and add bottom margin */
+}
+
+/* ................navbar............ */
+/* .......login and register route............. */
+/* Login and Register Form Container */
+.form-container {
+  width: 100px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}
+
+/* Form Header */
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form Labels */
+.form-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Form Inputs */
+.form-container input {
+  height: 30px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+label input[type="email"],
+label input[type="text"],
+label input[type="password"],
+textarea {
+  width: 70%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+/* Submit Button */
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #219916;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Submit Button Hover */
+.form-container button:hover {
+  background-color: #28502c;
+}
+
+/* Error Message */
+.error-message {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* .......login and register route............. */
+/* .......admin dashboard........... */
+/* AdminDashboard.css */
+
+.admin-dashboard {
+  display: flex;
+  margin: 20px;
+  color: #531919;
+}
+
+.submission-list {
+  flex: 1;
+  overflow-y: auto; /* In case of many submissions */
+  margin-right: 20px;
+}
+
+.submission-summary {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #531919;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  /* background-color: #000000; */
+}
+
+.submission-summary:hover {
+  background-color: #ececec;
+}
+
+/* .submission-details {
+  flex: 2;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.submission-details h2 {
+  margin-top: 0;
+}
+/* ..........admin dashboard.......... */
+
+/* Container for the entire page */
+.page-container {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  margin: 30px; /* Add margins to the entire page */
+}
+
+/* Container for the form */
+.form-container {
+  width: 40%; /* Adjust width as needed */
+  padding: 20px; /* Add padding */
+}
+
+/* Styling for text inputs and textareas */
+input[type="email"],
+input[type="text"],
+input[type="number"],
+textarea {
+  width: 90%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Styling for radio buttons */
+input[type="radio"] {
+  margin-right: 5px;
+
+}
+
+/* Styling for legend */
+legend {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+/* Styling for buttons */
+button {
+  padding: 10px 20px;
+  background-color: #0e6120;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #29b930;
+}
+
+fieldset label {
+  text-align: left;
+  display: inline-block;
+  border-color: #29b930;
+  width: 80%;
+  margin-right: 10px; /* Add some space between each option */
+  margin-left: 30px;
+}
+
+/* Container for the content */
+.content-container {
+  flex: 50; /* Take up remaining space */
+  background-color: rgb(253, 253, 253); /* Beige background color */
+  padding: 30px; /* Add padding */
+  text-align: left; /* Left-align the text */
+}
+/* Styling for the image */
+.content-container img {
+  max-width: 100%; /* Ensure image doesn't exceed container width */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 0px; /* Add margin at the bottom */
+}
+/* ................................................ */
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
